@@ -56,13 +56,13 @@ we'll tackle the issue with VCPKG_ROOT right now
 
 ### CMakeUserPresets.json
 
-In CMakeUserPresets.json change "inherits" to your config name and VCPKG_ROOT to your vcpkg root (should be the same if you followed Install VS Community)
+In CMakeUserPresets.json change "inherits" to your config name and VCPKG_ROOT to your vcpkg root
 
 ```sh
     "name": "default",
         "inherits": "your_config",
         "environment": {
-            "VCPKG_ROOT": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+            "VCPKG_ROOT": "C:/path/to/vcpkg"
         ...
 ```
 ### Status bar
