@@ -33,6 +33,8 @@ git clone https://github.com/Ninikiril/cpp_template.git
 
 ```sh
 git clone https://github.com/microsoft/vcpkg.git
+cd vcpkg
+./bootstrap-vcpkg.bat
 ```
 make sure path to vcpkg/ has no white space
 
