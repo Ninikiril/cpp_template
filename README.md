@@ -13,7 +13,7 @@ This repository provides a template for C++ projects using Visual Studio Code, V
 
 ### Install VS Community
 
-Download Visual Studio Installer and install Desktop development with C++ and don't forget to add vcpkg package management
+Download Visual Studio Installer and install Desktop development with C++ and don't forget to add windows11 SDK
 
 ### Install vscode
 
@@ -27,8 +27,14 @@ Install doxygen
 
 ```sh
 git clone https://github.com/Ninikiril/cpp_template.git
-cd cpp_template
 ```
+
+### Clone the vcpkg Repository
+
+```sh
+git clone https://github.com/microsoft/vcpkg.git
+```
+make sure path to vcpkg/ has no white space
 
 ### Open in Visual Studio Code
 
