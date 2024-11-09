@@ -38,9 +38,9 @@ cd vcpkg
 ```
 make sure path to vcpkg/ has no white space
 
-### Open in Visual Studio Code
-
 ## Configure, Build and Run
+
+open cpp_template or repo created from it in vscode
 
 ### CMakePresets.json
 Change vscode setting "Cmake: Use CMake Presets" to "always"
